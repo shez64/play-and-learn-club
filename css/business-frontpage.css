@@ -1,0 +1,675 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+
+/*@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+
+
+
+
+
+
+
+
+body {
+    
+background: white;
+  /*background-image: url(img/color-dots.jpeg);*/
+     
+}
+
+
+#top-navigation{
+/*    background: #3366ff;*/
+/*    background:#4091AB;*/
+    background: #3A87DB;
+    height: 56px;
+    color: white;
+/*    border-bottom: 5px dashed #EB5629;*/
+    padding-bottom: 0;
+
+    
+}
+
+#contact-number{
+    padding: 15px;
+    display: inline-block;
+    float:left;
+    text-decoration: none;
+    font-family: 'Mina';
+}
+
+#extra-nav-list{
+    float:right;
+    color: white;
+    list-style-type: none;
+    padding: 8px;
+    margin-top: 5px;
+    
+   
+}
+
+#extra-nav-list li{
+     display: inline;
+    margin-right: 15px;
+}
+
+
+/* NAVBAR */
+
+#navbar-main{
+    
+    background:white !important;
+    height: 100%;
+/*    border-top: 2px dotted red;*/
+    width: 100%;
+    padding: 0;
+     
+}
+
+
+
+
+
+#navbar-title{
+    color:black;
+    font-family: 'Barrio';
+    font-size: 45px;
+    margin-left: 15px;
+/*    background-image:url(img/title.png);*/
+    margin-left: 100px;
+    margin-bottom: 8px
+}
+
+#nav-links{
+    margin-right: 100px; 
+}
+
+#nav-links li a{
+    color:#8272CD !important;
+    font-family: 'Boogaloo', cursive;
+    font-size: 35px;
+    background:white;
+    height: 100%;
+    padding: 55px 20px;
+        
+        
+}
+
+#nav-home{
+    border-bottom: 12px solid blue;
+}
+
+#nav-programs{
+    border-bottom: 12px solid lightgreen;
+}
+
+#nav-enrollment{
+    border-bottom: 12px solid red;
+}
+
+#nav-tuition{
+    border-bottom: 12px solid orange;
+}
+
+#nav-reviews{
+    border-bottom: 12px solid purple
+}
+
+#navbar-toggler-btn{
+    background: #3A87DB;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+
+
+/* HEADER */
+
+#header-main{
+    
+    background-image:url('img/plc3.JPG')!important;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height:700px;
+    border: .5px solid black;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white !important;
+    border-bottom: 5px dotted blue;
+}
+
+/* ROW CONTENT */
+
+#row-1{
+    background: white;
+    padding: 15px;
+}
+
+#row-2{
+    background: white;
+}
+
+
+#welcome-section{
+    width: 100%;
+    background: white;
+    font-family: 'Mina';
+    
+}
+
+#welcome-opening-line{
+    text-align: center;
+    font-size: 55px;
+/*    font-family: 'Fontdiner Swanky';*/
+    font-family: 'Boogaloo', cursive;
+    padding: 25px;
+}
+
+#welcome-friends-title{
+    color: #3366ff;
+}
+
+#welcome-friends-title-2{
+    color: red;
+}
+
+#welcome-text{
+    padding-bottom: 20px;
+    padding: 28px;
+}
+
+#welcome-image{
+   background-image: url('img/kids.png');
+   background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+}
+
+
+
+#schedule-visit-section{
+    /*background: #3895D3;*/
+/*    background: #3366ff;*/
+    background: #3A87DB;
+    border-top: 5px dotted blue;
+    border-bottom: 5px dotted blue;
+}
+
+#schedule-visit-title{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    padding:40px;
+    font-family: 'Boogaloo', cursive;
+}
+
+#schedule-visit-text{
+    color: white;
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 25px;
+    font-family: 'Boogaloo', cursive;
+    
+}
+
+#schedule-visit-button{
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    background: orange;
+    margin:auto;
+    display: block;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    font-family: 'Boogaloo', cursive;
+}
+
+
+#button-text{
+    background:orange;
+    color: white;
+    font-family: 'Mina';
+}
+
+
+#location-title{
+    font-size: 55px;
+    margin-left: 15px;
+    font-family: 'Boogaloo', cursive;
+}
+
+#location-row{
+    padding: 50px;
+}
+
+
+#location-image{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-image:url(img/map.png);
+    background-size: cover;
+}
+
+#location-line-1{
+    margin: 16px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+}
+
+#location-line-2{
+    margin: 16px;
+    font-family: 'Boogaloo', cursive;
+    font-size: 22px;
+}
+
+#call-button{
+    margin: 16px;
+    background: darkgreen;
+    color: white;
+    font-size:22px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Boogaloo', cursive;
+}
+
+
+
+
+
+
+#location-image{
+    border: 2px dashed black;
+}
+
+
+
+
+/*#map{
+    background-image: url(img/map.png);
+}*/
+
+#map{
+    background-image:url('img/map.png')!important;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    height:700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white !important;
+}
+
+
+.wave{
+  background:
+    linear-gradient(to right, sandybrown, chocolate);
+  height: 50px;
+  position: relative;  
+}
+.wave::before, .wave::after{
+  border-bottom: 5px solid white;
+}
+.wave::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 10px;
+  background-size: 20px 40px;
+  background-image:
+    radial-gradient(circle at 10px -15px, transparent 20px, white 21px);
+}
+.wave::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 15px;
+  background-size: 40px 40px;
+  background-image:
+    radial-gradient(circle at 10px 26px, white 20px, transparent 21px);
+}
+
+
+#contact-modal{
+    border: 5px dashed black;
+}
+
+.inputs{
+    width: 100%;
+}
+
+#comment-area{
+    width: 100%;
+}
+
+.contact-labels{
+    
+}
+
+
+
+
+
+#footer{
+    background: darkred !important;
+}
+
+
+#developer-line{
+    position: absolute;
+    right: 40px;
+    color: ghostwhite;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1272px) {
+    #nav-links li a{
+        font-size: 20px;
+    }
+    
+    #navbar-title{
+        margin-left: 50px;
+    }
+    
+}
+
+@media (max-width: 1078px) {
+    #nav-links li a{
+        font-size: 15px;
+    }
+    
+    #navbar-title{
+        margin-left: 25px;
+    }
+    
+}
+
+
+@media (max-width: 990px) {
+    
+    
+    #nav-links {
+        width: 100%;
+    }
+    
+    #nav-links li a{
+        font-size: 25px;
+    }
+    
+    
+}
+
+
+@media (max-width: 767px) {
+    
+    #location-image{
+        height: 300px;
+        margin-bottom: 20px
+    }
+    
+    
+    #map-column{
+        position: relative;
+        top: 600px;
+        margin-bottom: 30px;
+    }
+    
+    #location-column{
+        position: relative;
+        bottom: 370px;
+    }
+    
+    
+}
+
+@media (max-width: 527px) {
+    
+    .inputs{
+        width: 80%;
+    }
+    
+    #comment-area{
+        width: 80%;
+    }
+    
+}
+
+
+@media (max-width: 481px) {
+    
+    #navbar-title{
+        margin-left: 0px;
+    }
+    
+}
+
+
+@media (max-width: 476px) {
+    
+    .inputs{
+        width: 75%;
+    }
+    
+    .contact-labels{
+        font-size: 15px;
+    }
+    
+    #comment-area{
+        width: 75%;
+    }
+    
+    
+}
+
+
+
+
+@media (max-width: 456px) {
+    
+    #navbar-title{
+        transform: scale(0.80);
+    }
+    
+    #navbar-toggler-btn{
+        float:right;
+        position: absolute;
+        right: 20px;
+        
+    }
+}
+
+
+@media (max-width: 466px) {
+    
+    .contact-labels{
+        font-size: 12px;
+    }
+    
+    .inputs{
+        width: 65%;
+    }
+    
+    #comment-area{
+        width: 65%;
+    }
+    
+}
+
+
+@media (max-width: 437px) {
+    
+    #navbar-title{
+        transform: scale(0.80);
+    }
+    
+    #navbar-toggler-btn{
+        float:right;
+        position: absolute;
+        right: 20px;
+        
+    }
+}
+
+@media (max-width: 411px) {
+    
+    .navbar-brand{
+        transform: scale(0.70);
+    }
+    
+    #navbar-title{
+        position: relative;
+        right: 25px;
+    }
+    
+    .inputs{
+        width: 50%;
+    }
+    
+    #comment-area{
+        width: 50%;
+    }
+    
+
+}
+
+
+@media (max-width: 401px) {
+    
+    .navbar-brand{
+        transform: scale(0.50);
+    }
+    
+    #navbar-title{
+        position: relative;
+        right: 25px;
+        transform: scale(0.7)
+    }
+    
+
+}
+
+@media (max-width: 377px) {
+    
+    .navbar-brand{
+        transform: scale(0.40);
+    }
+    
+    #navbar-title{
+        position: relative;
+        right: 25px;
+        transform: scale(0.5)
+    }
+    
+
+}
+
+
+
+@media (max-width: 320px) {
+    
+    .navbar-brand{
+        transform: scale(0.40);
+    }
+    
+    #navbar-title{
+        position: relative;
+        right: 65px;
+        transform: scale(0.6);
+    }
+    
+    .inputs{
+        width: 45%;
+    }
+    
+    #comment-area{
+        width: 45%;
+    }
+    
+    .contact-labels{
+        font-size: 10px;
+    }
+    
+
+}
+
+
+
+
+/* PROGRAMS */
+
+.cards{
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#schedule-section{
+    width: 100% !important;
+    background: black
+}
+
+#schedule-visit{
+    text-align: center;
+    font-size: 40px
+}*/
+
+
+
+
+
+
+
+
+
