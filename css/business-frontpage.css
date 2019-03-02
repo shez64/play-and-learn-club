@@ -104,6 +104,17 @@ background: white;
         
 }
 
+
+#nav-links li a:hover{
+    color: red !important;   
+}
+
+#nav-links li a:selected{
+    background: red !important;   
+}
+
+
+
 #nav-home{
     border-bottom: 12px solid blue;
 }
