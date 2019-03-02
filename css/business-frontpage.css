@@ -15,7 +15,7 @@
 
 
 
-
+/*#eae9e9*/
 
 
 
@@ -31,10 +31,11 @@ background: white;
 /*    background: #3366ff;*/
 /*    background:#4091AB;*/
     background: #3A87DB;
-    height: 56px;
+    height: 61px;
     color: white;
 /*    border-bottom: 5px dashed #EB5629;*/
     padding-bottom: 0;
+    margin-bottom:0;
 
     
 }
@@ -157,7 +158,8 @@ background: white;
     width: 100%;
     margin: 0 auto;
     background-color: white !important;
-    border-bottom: 5px dotted blue;
+    border-top: .5px solid lightgray;
+    border-bottom: .5px solid lightgray;
 }
 
 /* ROW CONTENT */
@@ -330,7 +332,7 @@ background: white;
   position: relative;  
 }
 .wave::before, .wave::after{
-  border-bottom: 5px solid white;
+  
 }
 .wave::before{
   content: "";
