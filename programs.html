@@ -52,7 +52,7 @@
         }
         
         .card-body{
-            border: .5px solid black;
+            font-family: 'Boogaloo', cursive;
         }
         
         #card-container{
@@ -62,6 +62,17 @@
         .card-image{
             height: 300px;
             object-fit: cover;
+        }
+        
+        .card-title{
+            text-align:center;
+            margin-bo
+        }
+        
+        #card-title{
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 40px;
         }
         
         #header-programs{
@@ -94,6 +105,26 @@
         #programs-row{
             background: #eae9e9;
             margin-top:
+        }
+        
+        .daily-schedule{
+            font-size: 20px;
+            width: 320px;
+            float: left;
+        }
+        
+        #schedule-container{
+            margin: 0 auto;
+            align-content: center;
+        }
+        
+        #schedule-image{
+            float:right;
+            width: 500px;
+            height: 500px;
+
+            background-image: url('css/img/clock.png');
+                background-size: contain;
         }
         
         /*#nav-programs{
@@ -179,23 +210,37 @@
                 
                 
                 
-                  <div class="card col-md-4">
-                    <img class="card-img-top card-image" src="css/img/infant.jpg" alt="Card image cap">
+                  <div class="card col-md-12">
+<!--                    <img class="card-img-top card-image" src="css/img/infant.jpg" alt="Card image cap">-->
                     <div class="card-body">
-                      <h5 class="card-title"><h3>Infants</h3> <h5>(3-18 months)</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title"><h3 id="card-title">A Typical Day</h3> <h5>Daily Schedule</h5>
+                      <p class="card-text">We make sure to allot ample time for children to enjoy playing with their peers as well as learning important skills.</p>
                           
-                          
+                        <div id="schedule-container">
                           <ul class="daily-schedule">
-                          <li>7:00 - 8:00 - Arrival, Breakfast</li>
-                          <li></li>
-                          <li></li>
+                          <li>7:30 - 9:30 am - Arrival, Breakfast</li>
+                          <li>9:30 - 9:50 am - Reading/Story Time</li>
+                          <li>9:50 - 10:15 am - Diaper/Toileting</li>
+                          <li>10:15 - 10:35 am - AM Snack</li>
+                          <li>10:35 - 11:00 am - Planned activity</li>
+                          <li>11:00 - 11:45 am - Outside time</li>
+                          <li>11:45 - 12:15 pm - Lunch time</li>
+                          <li>12:15 - 12:45 pm - Diaper/Toileting</li>
+                          <li>12:45 - 3:00 pm - Nap time</li>
+                          <li>3:00 - 3:20 pm - Diaper/Toileting</li>
+                          <li>3:20 - 3:45 pm - PM Snack</li>
+                          <li>3:45 - 4:15 pm - Free Play</li>
+                          <li>4:15 - 4:45 pm - Outside time</li>
+                          <li>4:45 - 5:00 pm - Diaper/Toileting</li>
+                          <li>5:00 - 6:00 pm - Free Play/Pickup</li>
                     
                         </ul>
+                          </div>
+                          
+                          <div id="schedule-image">img</div>
                           
                           
-                          
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <p class="card-text"><small class="text-muted">*may vary according to age groups</small></p>
                     </div>
                   </div>
                       
@@ -203,7 +248,7 @@
                       
                       
                       
-                  <div class="card col-md-4">
+                  <!--<div class="card col-md-4">
                     <img class="card-img-top card-image" src="css/img/toddler.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title"><h3>Toddlers</h3> <h5>(18 months - 3 years old) </h5>
@@ -241,9 +286,30 @@
                           
                       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
-                  </div>
+                  </div>-->
                 </div>
         </div>
+    </div>
+        
+    <div class="row">
+        <div class="container">
+            <div class="row">
+            
+            <div class="col-md-6">
+            <img src="css/img/blocks.png">
+            </div>
+            
+            <div class="col-md-6">
+            <img src="css/img/blocks.png">
+            </div>
+            
+            
+            
+            </div>
+            
+         
+        </div>
+        
     </div>
     
     
