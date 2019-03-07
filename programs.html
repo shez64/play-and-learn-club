@@ -66,13 +66,21 @@
         
         .card-title{
             text-align:center;
-            margin-bo
+            font-size: 30px;
         }
         
         #card-title{
             text-align: center;
             font-size: 50px;
             margin-bottom: 40px;
+        }
+        
+        #subtitle{
+            font-size: 35px;
+        }
+        
+        #card-text{
+            font-size: 22px;
         }
         
         #header-programs{
@@ -120,11 +128,12 @@
         
         #schedule-image{
             float:right;
-            width: 500px;
-            height: 500px;
-
+            width: 400px;
+            height: 400px;
             background-image: url('css/img/clock.png');
-                background-size: contain;
+            background-size: contain;
+            position: relative;
+            top: 20px;
         }
         
         /*#nav-programs{
@@ -213,8 +222,8 @@
                   <div class="card col-md-12">
 <!--                    <img class="card-img-top card-image" src="css/img/infant.jpg" alt="Card image cap">-->
                     <div class="card-body">
-                      <h5 class="card-title"><h3 id="card-title">A Typical Day</h3> <h5>Daily Schedule</h5>
-                      <p class="card-text">We make sure to allot ample time for children to enjoy playing with their peers as well as learning important skills.</p>
+                      <h5 class="card-title"><h3 id="card-title">A Typical Day</h3> <h5 id="subtitle">Daily Schedule</h5>
+                      <p class="card-text" id="card-text">We make sure to allot ample time for children to enjoy playing with their peers as well as learning important skills.</p>
                           
                         <div id="schedule-container">
                           <ul class="daily-schedule">
@@ -237,7 +246,7 @@
                         </ul>
                           </div>
                           
-                          <div id="schedule-image">img</div>
+                          <div id="schedule-image"></div>
                           
                           
                       <p class="card-text"><small class="text-muted">*may vary according to age groups</small></p>
@@ -291,7 +300,7 @@
         </div>
     </div>
         
-    <div class="row">
+    <!--<div class="row">
         <div class="container">
             <div class="row">
             
@@ -310,7 +319,7 @@
          
         </div>
         
-    </div>
+    </div>-->
     
     
     <!--<div class="card-group">
